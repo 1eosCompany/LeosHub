@@ -1,0 +1,47 @@
+local XanaxUILib = loadstring(game:HttpGet("https://pastebin.com/raw/XZz3Ytbu%22))()
+local Ui = XanaxUILib:CreateWindow("Leos Company")
+local Inf = Ui:CreateSection("Main")
+local a = Ui:CreateSection("Coming Soon...")
+local b = Ui:CreateSection("Coming Soon...")
+
+Inf:CreateLabel("( TIP )Click to Execute Scripts")
+Inf:CreateLabel("----------------------------------------------------")
+Inf:CreateLabel("Made By: ! Leos Comapany !#6462")
+Inf:CreateLabel("UI: Mag Develpoments")
+Inf:CreateLabel("----------------------------------------------------")
+Inf:CreateButton("Mag Developments UI",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI%22))()
+ end)
+Inf:CreateButton("Their Discord",
+   function()
+    setclipboard("https://discord.gg/gbCKX4PzRk%22)
+end)
+Inf:CreateLabel("----------------------------------------------------")
+Inf:CreateButton("Copy Discord(This one Is ours)",
+   function()
+    setclipboard("https://discord.gg/2Xjp9B7Kvh%22)
+end)
+Inf:CreateLabel("----------------------------------------------------")
+Inf:CreateButton("Destroy UI", function() XanaxUILib.functions:DestroyGUI() end)
+Inf:CreateLabel("----------------------------------------------------")
+
+--Game 1
+a:CreateLabel("Click to Execute")
+a:CreateLabel("----------------------------------------------------")
+
+
+a:CreateButton("Put Script Title here",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI%22))()
+ end)
+
+
+--Game 2
+b:CreateLabel("Click to Execute")
+b:CreateLabel("----------------------------------------------------")
+
+b:CreateButton("Put Script Title here",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI%22))()
+ end)
