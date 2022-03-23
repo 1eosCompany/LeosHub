@@ -1,4 +1,4 @@
-local XanaxUILib = loadstring(game:HttpGet("https://pastebin.com/raw/XZz3Ytbu"))()
+local XanaxUILib = loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/MagDevelopmentsLeoUI"))()
 local Ui = XanaxUILib:CreateWindow("Leos Company")
 local Inf = Ui:CreateSection("Main")
 local A = Ui:CreateSection("Plane Crazy")
@@ -16,15 +16,43 @@ Inf:CreateButton("Mag Developments UI",
  end)
 Inf:CreateButton("Their Discord",
    function()
-    setclipboard("https://discord.gg/gbCKX4PzRk")
+    game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "Discord",
+        Text = "Copied!"
+         
+    }
+)
+
+setclipboard("https://discord.gg/gbCKX4PzRk")
 end)
 Inf:CreateLabel("----------------------------------------------------")
 Inf:CreateButton("Copy Discord(This one Is ours)",
    function()
+   game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "Discord",
+        Text = "Copied!"
+         
+    }
+)
+
+setclipboard("https://discord.gg/gbCKX4PzRk")
     setclipboard("https://discord.gg/2Xjp9B7Kvh")
 end)
 Inf:CreateLabel("----------------------------------------------------")
-Inf:CreateButton("Destroy UI", function() XanaxUILib.functions:DestroyGUI() end)
+Inf:CreateButton("Destroy UI", function() XanaxUILib.functions:DestroyGUI() 
+     game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "GUI Destroyed",
+        Text = "Hate to see you leave us :("
+         
+    }
+)
+end)
 Inf:CreateLabel("----------------------------------------------------")
 
 --Game 1
@@ -34,13 +62,13 @@ A:CreateLabel("----------------------------------------------------")
 
 A:CreateButton("Plane Crazy Hax V1",
     function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/unZBieLE"))() 
+        loadstring(game:HttpGet("https://pastebin.com/raw/unZBieLE"))() 
  end)
 
 A:CreateButton("MagHub",
     function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/Plane%20Crazy"))()
- end)
+  end)
 
 
 --Game 2
@@ -51,4 +79,3 @@ B:CreateButton("Copy Art Script",
     function()
       loadstring(game:HttpGet("https://pastebin.com/raw/ckrGdRRC"))()  
  end)
-
