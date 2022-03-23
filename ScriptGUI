@@ -1,8 +1,9 @@
-local XanaxUILib = loadstring(game:HttpGet("https://pastebin.com/raw/XZz3Ytbu%22))()
+local XanaxUILib = loadstring(game:HttpGet("https://pastebin.com/raw/XZz3Ytbu"))()
 local Ui = XanaxUILib:CreateWindow("Leos Company")
 local Inf = Ui:CreateSection("Main")
-local a = Ui:CreateSection("Coming Soon...")
-local b = Ui:CreateSection("Coming Soon...")
+local A = Ui:CreateSection("Plane Crazy")
+local B = Ui:CreateSection("Starving Artists")
+local C = Ui:CreateSection("Build A Boat")
 
 Inf:CreateLabel("( TIP )Click to Execute Scripts")
 Inf:CreateLabel("----------------------------------------------------")
@@ -11,37 +12,43 @@ Inf:CreateLabel("UI: Mag Develpoments")
 Inf:CreateLabel("----------------------------------------------------")
 Inf:CreateButton("Mag Developments UI",
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI%22))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI"))()
  end)
 Inf:CreateButton("Their Discord",
    function()
-    setclipboard("https://discord.gg/gbCKX4PzRk%22)
+    setclipboard("https://discord.gg/gbCKX4PzRk")
 end)
 Inf:CreateLabel("----------------------------------------------------")
 Inf:CreateButton("Copy Discord(This one Is ours)",
    function()
-    setclipboard("https://discord.gg/2Xjp9B7Kvh%22)
+    setclipboard("https://discord.gg/2Xjp9B7Kvh")
 end)
 Inf:CreateLabel("----------------------------------------------------")
 Inf:CreateButton("Destroy UI", function() XanaxUILib.functions:DestroyGUI() end)
 Inf:CreateLabel("----------------------------------------------------")
 
 --Game 1
-a:CreateLabel("Click to Execute")
-a:CreateLabel("----------------------------------------------------")
+A:CreateLabel("Click to Execute")
+A:CreateLabel("----------------------------------------------------")
 
 
-a:CreateButton("Put Script Title here",
+A:CreateButton("Plane Crazy Hax V1",
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI%22))()
+        loadstring(game:HttpGet("'https://pastebin.com/raw/unZBieLE%27),true"))()
+ end)
+
+A:CreateButton("MagHub",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/Plane%20Crazy%22"))()
  end)
 
 
 --Game 2
-b:CreateLabel("Click to Execute")
-b:CreateLabel("----------------------------------------------------")
+B:CreateLabel("Click to Execute")
+B:CreateLabel("----------------------------------------------------")
 
-b:CreateButton("Put Script Title here",
+B:CreateButton("Copy Art Script",
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/WyHuv/Main/main/DiscordUI%22))()
+      loadstring(game:HttpGet("https://pastebin.com/raw/ckrGdRRC"))()  
  end)
+
