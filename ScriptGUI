@@ -34,12 +34,12 @@ A:CreateLabel("----------------------------------------------------")
 
 A:CreateButton("Plane Crazy Hax V1",
     function()
-        loadstring(game:HttpGet("'https://pastebin.com/raw/unZBieLE%27),true"))()
+         loadstring(game:HttpGet("https://pastebin.com/raw/unZBieLE"))() 
  end)
 
 A:CreateButton("MagHub",
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/Plane%20Crazy%22"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagDevelopments/ObfuscatedByMoonSec_2/main/Plane%20Crazy"))()
  end)
 
 
