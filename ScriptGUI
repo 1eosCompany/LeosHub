@@ -4,6 +4,7 @@ local Inf = Ui:CreateSection("Main")
 local A = Ui:CreateSection("Plane Crazy")
 local B = Ui:CreateSection("Starving Artists")
 local C = Ui:CreateSection("Build A Boat")
+local D = Ui:CreateSection("Extras")
 
 Inf:CreateLabel("( TIP )Click to Execute Scripts")
 Inf:CreateLabel("----------------------------------------------------")
@@ -78,4 +79,13 @@ B:CreateLabel("----------------------------------------------------")
 B:CreateButton("Copy Art Script",
     function()
       loadstring(game:HttpGet("https://pastebin.com/raw/ckrGdRRC"))()  
+ end) 
+ 
+ --Game 3
+D:CreateLabel("Click to Execute")
+D:CreateLabel("----------------------------------------------------")
+
+D:CreateButton("Infinte Yeild",
+    function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
  end)
