@@ -85,7 +85,7 @@ B:CreateButton("Copy Art Script",
 D:CreateLabel("Click to Execute")
 D:CreateLabel("----------------------------------------------------")
 
-D:CreateButton("Infinte Yeild",
+D:CreateButton("Infinte Yield",
     function()
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
  end)
