@@ -85,7 +85,7 @@ B:CreateButton("Copy Art Script",
 C:CreateLabel("Click to Execute")
 C:CreateLabel("----------------------------------------------------")
 
-C:CreateButton("Infinte Yield",
+C:CreateButton("Load Build Script",
     function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()  
  end)
